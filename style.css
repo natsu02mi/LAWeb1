@@ -1,0 +1,210 @@
+body {
+    font-family: 'Noto Sans JP', 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif; margin: 0; padding: 0; font-weight: 400; line-height: 2.0; letter-spacing: 0.05em; background: #fff;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.a{
+    text-decoration: none;
+    color: #000;
+}
+header{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    padding: 0 180px;
+    position: fixed;
+
+}
+header h1{
+    margin: 100px;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'メイリオ';
+}  
+header ul {
+    display: flex;
+    width: 600px;
+    list-style: none;
+    justify-content: space-between;
+}
+header a {
+    text-decoration: none;
+    padding: 10px;
+    color: #000;
+}
+.firstView h1 {
+    font-size: 80px;
+    text-align: center;
+    padding-top: 320px;
+    color: #fff;
+}
+.firstView p {
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+}
+.firstView {
+    background-image: url(images/header1.jpg);
+    background-size: 100%;
+    height: 900px;
+}
+.about{
+    padding: 180px;
+}
+
+.profile h2{
+    font-size: 64px;
+    letter-spacing: 0.1em;
+}
+.profile h3{
+    font-size: 24px;
+    margin-top: 0px;
+}
+.profile p{
+    font-size: 16px;
+    margin-top: 14px;
+}
+.profile img{
+    width: 480px;
+    height: 270px;
+    margin: 20px;
+}
+.profile .profile-text{
+    width: 500px;
+    float: left;
+    margin-left: 100px;
+}
+.cleaefix{
+    clear: both;
+}
+.school-club{
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+.school-club img{
+    width: 480px;
+    height: 270px;
+    border-radius: 16px;
+}
+.school-club h3{
+    margin-top: 8px;
+}
+.school-club p{
+    margin-top: 16px;
+}
+.school-club a{
+    display: inline-block;
+    border-bottom: 1px solid;
+    margin-top: 32px;
+}
+.favorite h2{
+    font-size: 64px;
+}
+.favorite{
+    text-align: center;
+    padding: 180px 180px 240px 180px;
+    background-image: url(images/back.jpg);
+    background-size: contain;
+}
+.favorite-content {
+    width: 320px;
+    padding: 40px;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 5%;
+}
+.favorite-contents {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.favorite-content h3{
+    font-size: 24px;
+}
+.favorite-content p{
+    font-size: 16px;
+}
+.favorite-content img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.works{
+    padding: 180px;
+    text-align: center;
+    background-color: #fffdf3;
+}
+.works h2{
+    font-size: 64px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    border-bottom: 3px solid #ff9900;
+    display: inline-block;
+}
+.works-content{
+    display: flex;
+    background-color: #fff;
+    margin-top: 40px;
+    padding: 40px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.15);
+    text-align: left;
+}
+.works-content h3{
+    font-size: 28px;
+}
+.works-content p{
+    font-size: 16px;
+    margin-top: 16px;
+}
+.works-content span{
+    font-size: 16px;
+    margin-left: 16px;
+}
+.works-content .works-text{
+    margin-left: 32px;
+}
+.works-content img {
+    width: 320px;
+    height: 180px;
+}
+.contact{
+    padding: 180px 370px;
+    text-align: center;
+}
+.contact h2{
+    font-size: 64px;
+    letter-spacing: 0.1em;
+    border-bottom: 3px solid #ff9900;
+    display: inline-block;
+}
+.contact p{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    line-height: 200%;
+    margin-top: 48px;
+    text-align: left;
+}
+.contact a{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    width: 200px;
+    line-height: 80px;
+    display: inline-block;
+    border-radius: 16px;
+}
+.contact .Facebook {
+    background-color: #3b5998;
+    text-decoration:none;
+}
+.contact .Twitter {
+    background-color:  #00acee;
+    text-decoration:none;
+}
